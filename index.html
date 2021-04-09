@@ -4,8 +4,13 @@
   <title>Nikkster.tech</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- below 4 lines are for linkedin -->
+  <meta property='og:title' content='Nikkster.tech'/>
+  <meta property='og:image' content='./imgs/profeditcrop.jpg'/>
+  <meta property='og:description' content='Nikkster.tech Portfolio Site'/>
+  <meta property='og:url' content='www.nikkster.tech'/>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel=icon href="imgs/icons8-circled-n-50.png">
+  <link rel=icon href="imgs/icons8-circled-n-50.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -49,7 +54,7 @@
       <h1 class="section__title section__title--intro">
         Hi, my name is <strong>Nikki Hermann</strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
+      <p class="section__subtitle section__subtitle--intro">Front-End React and Shopify Developer</p>
       <!-- <img src="spruce.JPG" class="intro__img"> -->
     </div>
 
@@ -75,12 +80,12 @@ Team member - Self-motivated - Clear communicator //
 Tech enthusiast - Problem-solver //
 React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
 
-    <p>I am a full stack developer based in sunny Los Angeles. I am passionate
-      about building things that automate the mundane, and therefore free up time
+    <p>I am a Front-End React and Shopify developer based in sunny Los Angeles. I am passionate
+      about building things that automate the mundane in order to free up time
       so that <strong>you can do things that you actually enjoy doing</strong>.
     </p>
 
-    <p>Previously, I worked as a park ranger which allowed me to do what
+    <p>Previously I worked as a park ranger which allowed me to do what
       I love - be outdoors and experience life in different parts of the country.
       Through this work I spoke with thousands of visitors a day, from all over
       world. <strong>The outdoors inspires my work and drives me to build beautiful,
@@ -92,7 +97,7 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
 
 
     </div>
-    <img src="./imgs/profimgsquare.JPG" class="about-me__img" alt="image of Nikki">
+    <img src="./imgs/profeditcrop.jpg" class="about-me__img" alt="image of Nikki">
   </div>
   <div class="btn-container">
     <a href="#work" class="btn">My work</a>
@@ -108,8 +113,22 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
       <br>
       <div class="services">
         <div class="service">
+          <h2>React and Shopify Front End Development</h2>
+          <p>All of my code is responsive and user-friendly, and I am able to build
+            <strong>quick, single page projects</strong> using React Components.
+            These programs make my clients' lives easier <strong>without any lag</strong>
+            or the need to load new pages.</p>
+            <p>If you have a Shopify store, I wll make sure 
+            all components are customizeable by the client <strong>without the need of having a
+            developer on hand at all times.</strong></p>
+            <!-- <p><strong>Check out my work below to see what I've built.</strong></p> -->
+        </div>   <!-- close service -->
+      </div>
+
+      <div class="services">
+        <div class="service">
           <h2>Full Stack MERN Development</h2>
-          <p>I am a full stack developer with experience building and deploying
+          <p>I have full stack experience building and deploying
             <strong>responsive websites</strong> and <strong>user-friendly
             applications</strong>. I specialize in <strong>React</strong> and
             <strong>Node.js</strong>, using <strong>Express</strong> and
@@ -117,16 +136,6 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
             Javascript,</strong> and <strong>Python</strong>.</p>
           </div>   <!-- close service -->
         </div>
-
-        <div class="services">
-        <div class="service">
-          <h2>React Front End Development</h2>
-          <p>All of my code is responsive and user-friendly, and I am able to build
-            <strong>quick, single page projects</strong> using React Components.
-            These programs make my clients' lives easier <strong>without any lag</strong>
-            or the need to load new pages. <strong>Check out my work below to see
-            what I've built.</strong>
-     </div>   <!-- close service -->
 
         <div class="service">
           <h2>Communication and Data Analysis</h2>
@@ -146,11 +155,22 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
       <h2 class="section__title section__title--services">My Skills</h2>
       <div class="services">
         <div class="service">
-
-          <h4>Javascript</h4>
-          <h4>HTML/CSS</h4>
-          <h4>React</h4>
-          <h4>Node.js</h4>
+          <div>
+            <img src="./imgs/logos-pink/icons8-javascript-50.png">
+            <h4>Javascript</h4>
+          </div>
+          <div>
+            <img src="./imgs/logos-pink/icons8-html-5-50-3.png">
+            <h4>HTML/CSS</h4>
+          </div>
+          <div>
+            <img src="./imgs/logos-pink/icons8-react-native-50.png">
+            <h4>React</h4>
+          </div>
+          <div>
+            <img src="./imgs/logos-pink/icons8-node-js-50.png">
+            <h4>Node.js</h4>
+          </div>
 
 
         </div>
@@ -218,7 +238,10 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
       <p class="portfolio__item-title">COVID-19 Quarantine Task Generator</p>
       <img src="./imgs/shoes_on_kennebeck.JPG" alt="" class="portfolio__img">
     </a>
-
+    <a href="#work" data-modal="modal8"  class="modal-open portfolio__item">
+      <p class="portfolio__item-title">FrontApp Plugin</p>
+      <img src="./imgs/IMG_3491.JPG" alt="" class="portfolio__img">
+    </a>
 
 
       <!-- Modal -->
@@ -237,16 +260,25 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
             <p>Version 01 launched May 2020</p>
             </br>
             <p>First Screen - Choose Your Diet</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3000-2020-05-06-15_37_48.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-what-can-i-make-2020-08-25-18_48_41.jpg" alt="View of first screen">
             </br>
             <p>Second Screen - Choose Your Ingredients</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3000-2020-05-06-15_38_30.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-what-can-i-make-2020-08-25-18_50_17.jpg" alt="View of included ingredients screen">
             </br>
             <p>Third Screen - Choose Excluded Ingredients</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3000-2020-05-06-15_39_03.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-what-can-i-make-2020-08-25-18_50_54.jpg" alt="View of excluded ingredients screen">
             </br>
             <p>Final Screen - Recipe Cards (With flipping animation - front: title and image, back: ingredients you have, ingredients you still need, link to recipe)</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3000-2020-05-06-15_39_24.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-what-can-i-make-2020-08-25-18_51_41.jpg" alt="View of final screen">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_what_can_i_make_(iPhone 6_7_8).jpg" alt="Mobile view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img" src="./imgs/screenshots/nikkster311.github.io_what_can_i_make_(iPhone 6_7_8) (2).jpg" alt="Mobile view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_what_can_i_make_(iPhone 6_7_8) (1).jpg" alt="Mobile view">
             <a target="__blank" href="https://nikkster311.github.io/what_can_i_make/">Live Version</a> |
             <a target="__blank" href="https://github.com/nikkster311/what_can_i_make/">Github</a>
             <p>Created April 2020</p>
@@ -270,10 +302,16 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
             <p>Version 01 launched May 2020</p>
             </br>
             <p>Create New Entry page</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3002-create-2020-04-02-13_46_11.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3002-create-2020-04-02-13_46_11.jpg" alt="Create new entry page">
             </br>
             <p>Main Screen - View all entries</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3002-2020-04-02-13_44_52.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3002-2020-04-02-13_44_52.jpg" alt="View all entries screen">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img modal-img-mobile" src="./imgs/screenshots/three-things-ndt.herokuapp.com_(iPhone 6_7_8) (1).jpg" alt="Mobile view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img" src="./imgs/screenshots/three-things-ndt.herokuapp.com_(iPhone 6_7_8).jpg" alt="Mobile view">
             <a target="__blank" href="https://three-things-ndt.herokuapp.com">Live Version</a> |
             <a target="__blank" href="https://github.com/nikkster311/three_things">Github</a>
             <p>Created March 2020</p>
@@ -293,7 +331,11 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
             <a target="__blank" href="https://github.com/nikkster311/packing_list_v03">Github</a>
             <p>Version 02 launched April 2020</p>
             <p>Version 01 launched March 2019</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3000-2020-03-29-21_48_37.png" alt="">
+            <p>Live View</p>
+            <img class="modal-img" src="./imgs/screenshots/screencapture-localhost-3000-2020-03-29-21_48_37.jpg" alt="Desktop view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_packing_list_v02_(iPhone 6_7_8).jpg" alt="Mobile view">
             <a target="__blank" href="https://nikkster311.github.io/packing_list_v03/">Live Version</a> |
             <a target="__blank" href="https://github.com/nikkster311/packing_list_v03">Github</a>
             <p>Version 02 launched April 2020</p>
@@ -314,13 +356,23 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
             <p>Version 01 launched March 2019</p>
             </br>
             <p>First Screen</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-dichotomous-key-v01-2020-03-29-20_30_18.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-dichotomous-key-v01-2020-03-29-20_30_18.jpg" alt="Final screen">
             </br>
             <p>Search Screen</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-dichotomous-key-v01-2020-03-29-20_30_50.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-dichotomous-key-v01-2020-03-29-20_30_50.jpg" alt="Search screen">
             </br>
             <p>Final Screen</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-dichotomous-key-v01-2020-03-29-20_31_30.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-dichotomous-key-v01-2020-03-29-20_31_30.jpg" alt="First screen">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_dichotomous_key_v01_(iPhone 6_7_8).jpg" alt="Mobile view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_dichotomous_key_v01_(iPhone 6_7_8) (1).jpg" alt="Mobile view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img" src="./imgs/screenshots/nikkster311.github.io_dichotomous_key_v01_(iPhone 6_7_8) (2).jpg" alt="Mobile view">
+        
             <a target="__blank" href="https://nikkster311.github.io/dichotomous_key_v01/">Live Version</a> |
             <a target="__blank" href="https://github.com/nikkster311/dichotomous_key_v01/">Github</a>
             <p>Version 01 launched March 2019</p>
@@ -341,10 +393,16 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
             <p>Launched February 2019</p>
             </br>
             <p>Main Screen</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-portfolio-react-01-2020-03-29-18_43_11.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-portfolio-react-01-2020-03-29-18_43_11.jpg" alt="Main screen">
             </br>
             <p>Projects Screen</p>
-            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-portfolio-react-01-2020-03-29-18_44_41.png" alt="">
+            <img class="modal-img" src="./imgs/screenshots/screencapture-nikkster311-github-io-portfolio-react-01-2020-03-29-18_44_41.jpg" alt="Projects screeb">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_portfolio_react_01_(iPhone 6_7_8).jpg" alt="Mobile view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img" src="./imgs/screenshots/nikkster311.github.io_portfolio_react_01_(iPhone 6_7_8) (1).jpg" alt="Mobile view">
             <a target="__blank" href="https://nikkster311.github.io/portfolio_react_01/">Live Version</a> |
             <a target="__blank" href="https://github.com/nikkster311/portfolio_react_01">Github</a>
             <p>Launched February 2019</p>
@@ -363,7 +421,14 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
             <a target="__blank" href="https://github.com/nikkster311/the-other-four-v-01">Github</a>
             <p>Version 01 launched February 2019</p>
             </br>
-            <img class="modal-img" src="./imgs/screenshots/the_other_four.png" alt="">
+            <p>Desktop view with both the main screen and final screen</p>
+            <img class="modal-img" src="./imgs/screenshots/the_other_four.jpg" alt="Desktop view with both the main screen and final screen">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_the-other-four-v-01_(iPhone 6_7_8).jpg" alt="Mobile view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_the-other-four-v-01_(iPhone 6_7_8) (1).jpg" alt="Mobile view">
             <a target="__blank" href="https://nikkster311.github.io/the-other-four-v-01/">Live Version</a> |
             <a target="__blank" href="https://github.com/nikkster311/the-other-four-v-01">Github</a>
             <p>Version 01 launched February 2019</p>
@@ -383,11 +448,36 @@ React, Node.js, MongoDB, Express, Javascript, HTML, CSS, Python //  -->
             <a target="__blank" href="https://trinket.io/python/9f19374f70?fbclid=IwAR1X1dFK_m3lX9pCItZfzmk6yYH5geKzz_i4zTYqO0bZqc1VJwHGAD0MfAU">Python Version</a> |
             <a target="__blank" href="https://github.com/nikkster311/covid19_quarantine_task_generator/">Github</a>
             <p>Launched March 2019</p>
-            <img class="modal-img" src="./imgs/screenshots/covid19_01.png" alt="">
+            <p>Desktop View</p>
+            <img class="modal-img" src="./imgs/screenshots/covid19_01.jpg" alt="Desktop view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img modal-img-mobile" src="./imgs/screenshots/nikkster311.github.io_covid19_quarantine_task_generator_(iPhone 6_7_8).jpg" alt="Mobile view">
+            </br>
+            <p>Mobile View</p>
+            <img class="modal-img" src="./imgs/screenshots/nikkster311.github.io_covid19_quarantine_task_generator_(iPhone 6_7_8) (1).jpg" alt="Mobile view">
             <a target="__blank" href="https://nikkster311.github.io/covid19_quarantine_task_generator/">Live Version</a> |
             <a target="__blank" href="https://trinket.io/python/9f19374f70?fbclid=IwAR1X1dFK_m3lX9pCItZfzmk6yYH5geKzz_i4zTYqO0bZqc1VJwHGAD0MfAU">Python Version</a> |
             <a target="__blank" href="https://github.com/nikkster311/covid19_quarantine_task_generator/">Github</a>
             <p>Launched March 2019</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal8" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="modal-header">FrontApp Plugin</div>
+          <div class="modal-body">
+            <h4>Developed a plugin to display user contact and survey information</h4>
+            <p>Created with Vue, CSS, and responsive design</p>
+            <p>Created June 2020</p>
+            <p>Survey screen</p>
+            <img class="modal-img" src="./imgs/screenshots/v01surveyedit.jpg" alt="Survey screen">
+            </br>
+            <p>Info Screen</p>
+            <img class="modal-img" src="./imgs/screenshots/v01infoedit.jpg" alt="Info screen">
+            <p>Created June 2020</p>
           </div>
         </div>
       </div>
